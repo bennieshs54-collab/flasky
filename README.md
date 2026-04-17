@@ -58,8 +58,22 @@ This application is used to demonstrate automated CI/CD pipelines.
 
 * Jenkins installed on a CentOS Virtual Machine (Oracle VirtualBox)
 * Java (OpenJDK 17) installed
+
+<img width="925" height="470" alt="image" src="https://github.com/user-attachments/assets/865d161f-1565-4cf4-b041-070bffae7556" />
+
+<img width="940" height="350" alt="image" src="https://github.com/user-attachments/assets/8fba2263-5721-4570-b186-15019e81a2bf" />
+
+<img width="940" height="481" alt="image" src="https://github.com/user-attachments/assets/452d02fc-2fca-4e93-bb9b-68066bcb468a" />
+
 * Python3 and pip configured
+
+<img width="940" height="275" alt="image" src="https://github.com/user-attachments/assets/ea12d54e-335f-48e9-a3d0-4d4e038d3a57" />
+
+
 * Required Jenkins plugins installed:
+
+<img width="940" height="272" alt="image" src="https://github.com/user-attachments/assets/dd197d5c-8753-43e1-913c-684e7d95e559" />
+
 
   * Git Plugin
   * Pipeline Plugin
@@ -292,6 +306,20 @@ Successfully implemented:
 ✔ Webhook-based triggers
 
 This project demonstrates a complete DevOps pipeline for a Python Flask application.
+
+
+
+<img width="940" height="504" alt="image" src="https://github.com/user-attachments/assets/2eb5555b-0662-4bb8-85c7-c211d2901327" />
+
+<img width="940" height="503" alt="image" src="https://github.com/user-attachments/assets/d26abbf0-5783-4852-b281-959a0a854d3f" />
+
+
+<img width="940" height="83" alt="image" src="https://github.com/user-attachments/assets/cca23c8f-f6db-4411-b12d-721e761f1218" />
+
+<img width="940" height="481" alt="image" src="https://github.com/user-attachments/assets/7dd79c56-bca5-412b-bba3-d017b0c24c34" />
+
+
+
 
 
 ---
