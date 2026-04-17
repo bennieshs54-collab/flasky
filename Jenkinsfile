@@ -2,21 +2,22 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
-            steps {
-                git 'https://github.com/bennieshs54-collab/flasky.git'
-            }
-        }
 
         stage('Build') {
             steps {
-                sh 'echo Building...'
+                sh 'pip3 install -r requirements.txt'
             }
         }
 
-        stage('Run') {
+        stage('Test') {
             steps {
-                sh 'python3 app.py'
+                sh 'pytest'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                sh 'nohup python3 app.py &'
             }
         }
     }
